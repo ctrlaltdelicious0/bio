@@ -2,7 +2,7 @@ console.log('index.js loaded');
 
 window.addEventListener('DOMContentLoaded', (event) => {
     anime({
-        targets: '.language-toggle button',
+        targets: '.language_toggle button',
         opacity: [0, 1],
         duration: 2000,
         easing: 'easeInOutQuad',
