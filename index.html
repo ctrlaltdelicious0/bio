@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- BOILERPLATE -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- PAGE -->
+        <title>᲼</title>
+
+            <!-- FAVICON -->
+            <link rel="icon" href="img/favicon.png" type="image/png">
+
+        <!-- LIBRARIES -->
+
+            <!-- LENIS -->
+            <link rel="stylesheet" href="https://unpkg.com/lenis@1.2.3/dist/lenis.css">
+            <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js" defer></script>
+
+            <!-- ANIME JS -->
+            <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+
+        <!-- JAVASCRIPT -->
+        <script src="js/lenis.js" defer></script>
+        <script src="js/index.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <div class="language-toggle">
+                <button onclick="setLanguage('fr')">Français</button>
+                <button onclick="setLanguage('en')">English</button>
+            </div>
+
+            <p class="p_text lang-fr">Je voudrais bien me dire "ne t'inquiètes pas"</p>
+            <p class="p_text lang-en">I wish I could tell myself “don’t worry”</p>
+            
+            <p class="p_text lang-fr">Que tout sera bien</p>
+            <p class="p_text lang-en">That everything will be fine</p>
+            
+            <p class="p_text lang-fr">Tout ira pour le mieux car j'avais peur</p>
+            <p class="p_text lang-en">Everything would turn out for the best, because I was afraid</p>
+            
+            <p class="p_text lang-fr">À ce moment-là, quand j'avais 18 ans</p>
+            <p class="p_text lang-en">At that moment, when I was 18 years old</p>
+            
+            <p class="p_text lang-fr">Je venais de quitter mon pays</p>
+            <p class="p_text lang-en">I had just left my country</p>
+            
+            <p class="p_text lang-fr">Je venais de quitter ma maison</p>
+            <p class="p_text lang-en">I had just left my home</p>
+            
+            <p class="p_text lang-fr">Et tous mes amis pour arriver ici, dans ce pays étranger</p>
+            <p class="p_text lang-en">And all my friends, to arrive here in this foreign country</p>
+            
+            <p class="p_text lang-fr">J'ai été mis dans une école et je ne parle pas la langue</p>
+            <p class="p_text lang-en">I was placed in a school and I didn’t speak the language</p>
+            
+            <p class="p_text lang-fr">Je voudrais me rassurer que tout sera bien</p>
+            <p class="p_text lang-en">I wish I could reassure myself that everything will be okay</p>
+            
+            <p class="p_text lang-fr">Et qu'un jour j'aurai une belle famille</p>
+            <p class="p_text lang-en">And that one day I would have a beautiful family</p>
+            
+            <p class="p_text lang-fr">Et deux fils qui sont beaux et intelligents</p>
+            <p class="p_text lang-en">And two sons who are handsome and intelligent</p>
+            
+            <p class="watermark"><a class="watermark_a" href="https://www.instagram.com/ctrlaltdelicious._" target="_blank"rel="noopener noreferrer">→ code by julian</a></p>
+        </main>
+
+        <script>
+            function setLanguage(lang) {
+                document.querySelectorAll('.lang-fr, .lang-en').forEach(el => {
+                    el.style.display = el.classList.contains('lang-' + lang) ? 'block' : 'none';
+                });
+            }
+            
+            window.onload = () => {
+                setLanguage('fr');
+            };
+        </script>
+    </body>
+</html>
