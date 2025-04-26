@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    padding: 10vh 20vw 1vh 20vw;
+    padding: 10vh 20vw;
 }
 
 .language_toggle {
@@ -60,7 +60,7 @@ p {
 
 @media (max-width: 768px) {
     main {
-        padding: 10vh 30px;
+        padding: 10vh 30px 1px 30px;
     }
 
     p {
