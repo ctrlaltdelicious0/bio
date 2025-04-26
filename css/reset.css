@@ -1,4 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* GT Super Display Family */
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Bold-Italic-Trial.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Bold-Trial.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Light-Italic-Trial.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Light-Trial.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Medium-Italic-Trial.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Medium-Trial.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Regular-Italic-Trial.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Regular-Trial.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Super-Italic-Trial.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Super-Trial.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* GT Super Text Family */
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Black-Italic-Trial.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Black-Trial.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Bold-Italic-Trial.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Bold-Trial.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Book-Italic-Trial.otf') format('opentype');
+    font-weight: 450;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Book-Trial.otf') format('opentype');
+    font-weight: 450;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Medium-Italic-Trial.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Medium-Trial.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Regular-Italic-Trial.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Super Text';
+    src: url('../fonts/GT-Super-Text-Regular-Trial.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
 
 * {
     margin: 0;
@@ -7,5 +147,5 @@
 }
 
 p {
-    font-family: "Playfair Display", serif;
+    font-family: "GT Super Display", serif;
 }
